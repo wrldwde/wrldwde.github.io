@@ -5,11 +5,28 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>First lab I-tech</title>
+    <title>Second lab I-tech</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <style type="text/css">
+        html, body {
+            height: 100%;
+        }
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        .content {
+            flex: 1 0 auto;
+        }
+        .footer {
+            flex-shrink: 0;
+        }
+    </style>
 </head>
 <body>
 <!--suppress HtmlDeprecatedAttribute -->
-<table width="100%" cellspacing="0" border="0">
+<table width="100%" cellspacing="0" border="0" class="content" >
     <tr>
         <th colspan="2">Шапка сайта <a name="top"></a></th>
     </tr>
@@ -19,7 +36,7 @@
     </tr>
     <tr>
         <td>
-            <table width="400" border="1">
+            <table id="firstTable" >
                 <tr>
                     <td colspan="2" align="center">Ги де Мопассан / Новеллы </td>
                 </tr>
@@ -125,7 +142,7 @@
             где <b>E</b> -энергия объекта,<b>m</b> - его масса,
             <b>c</b> - скорость света в вакууме,
             равная 299 792 458 <i>м/с</i>.</p>
-            <select name="sel1" id="1">
+            <select name="sel1" id="firstSel">
                 <option selected = "selected" >КИУКИ 18-3</option>
                 <option value="1">Гайдай Я.</option>
                 <option value="2">Животинский А.</option>
@@ -157,10 +174,13 @@
                 id est laborum.</p>
             <a href="#bott">To bottom</a>
             <a href="http://gnatkovsky.com.ua/files/jakor/index.html#yak2" target="_blank">To Second header</a>
+            <div ><a href="https://nure.ua/u-hnure-vidbudetsja-kvest-dlja-studentiv-pershokursnikiv-zip-quest-rozarhivuj-universitet" target="_blank">
+                <img src="https://nure.ua/wp-content/uploads/2018/07/banner-737_669-300x272.jpg" alt="zip-quest banner">
+            </a></div>
         </td>
     </tr>
     <tr>
-        <td colspan="2">
+        <td colspan="2" >
             <form action="">
                 <br>
                 <b>Заполните информацию о студенте:</b>
@@ -184,5 +204,6 @@
         </td>
     </tr>
 </table>
+<footer class="footer" style="background-color: aqua; text-align: center">FOOTER</footer>
 </body>
 </html>

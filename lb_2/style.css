@@ -1,0 +1,8 @@
+#firstTable {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    width: 400px;
+    border-style: solid;
+
+    border-collapse: separate;
+    background: antiquewhite;
+}
