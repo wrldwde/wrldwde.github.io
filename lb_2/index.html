@@ -28,17 +28,17 @@
 <!--suppress HtmlDeprecatedAttribute -->
 <table width="100%" cellspacing="0" border="0" class="content" >
     <tr>
-        <th colspan="2">Шапка сайта <a name="top"></a></th>
+        <th colspan="2">Шапка сайта <a id="top"></a></th>
     </tr>
     <tr>
-        <td width="20%">Оглавление</td>
-        <td height="80%" align="center">Заголовок</td>
+        <td style="width: 20%" >Оглавление</td>
+        <td style=" height: 80%; text-align: center;">Заголовок</td>
     </tr>
     <tr>
         <td>
             <table id="firstTable" >
                 <tr>
-                    <td colspan="2" align="center">Ги де Мопассан / Новеллы </td>
+                    <td colspan="2" style="text-align: center">Ги де Мопассан / Новеллы </td>
                 </tr>
                 <tr>
                     <td>Пышка. Перевод Е. Гунста</td>
@@ -138,33 +138,33 @@
                 </tr>
             </table>
         </td>
-        <td valign="top"><p><b><i>E</i></b> = <b><i>mc<sup>2</sup></i></b>,
+        <td style="vertical-align: top"><p><b><i>E</i></b> = <b><i>mc<sup>2</sup></i></b>,
             где <b>E</b> -энергия объекта,<b>m</b> - его масса,
             <b>c</b> - скорость света в вакууме,
             равная 299 792 458 <i>м/с</i>.</p>
-            <select name="sel1" id="firstSel">
-                <option selected = "selected" >КИУКИ 18-3</option>
-                <option value="1">Гайдай Я.</option>
-                <option value="2">Животинский А.</option>
-                <option value="3">Каракашьян Д.</option>
-                <option value="4">Каряка Є.</option>
-                <option value="5">Куренко В.</option>
-                <option value="6">Лях Д.</option>
-                <option value="7">Мантуров Д.</option>
-                <option value="8">Нечепоренко Р.</option>
-                <option value="9">Нижегольцев М.</option>
-                <option value="10">Петренко Н.</option>
-                <option value="11">Поначевный Ю.</option>
-                <option value="12">Северина А.</option>
-                <option value="13">Слащова А.</option>
-                <option value="14">Столяр И.</option>
-                <option value="15">Тарасянц А.</option>
-                <option value="16">Томачинская В.</option>
-                <option value="17">Хрусталев Е.</option>
-                <option value="18">Шедей Р.</option>
-                <option value="19">Шепета А.</option>
-                <option value="20">Яценко И.</option>
-            </select>
+                <select name="sel1">
+                    <option selected = "selected" >КИУКИ 18-3</option>
+                    <option value="1">Гайдай Я.</option>
+                    <option value="2">Животинский А.</option>
+                    <option value="3">Каракашьян Д.</option>
+                    <option value="4">Каряка Є.</option>
+                    <option value="5">Куренко В.</option>
+                    <option value="6">Лях Д.</option>
+                    <option value="7">Мантуров Д.</option>
+                    <option value="8">Нечепоренко Р.</option>
+                    <option value="9">Нижегольцев М.</option>
+                    <option value="10">Петренко Н.</option>
+                    <option value="11">Поначевный Ю.</option>
+                    <option value="12">Северина А.</option>
+                    <option value="13">Слащова А.</option>
+                    <option value="14">Столяр И.</option>
+                    <option value="15">Тарасянц А.</option>
+                    <option value="16">Томачинская В.</option>
+                    <option value="17">Хрусталев Е.</option>
+                    <option value="18">Шедей Р.</option>
+                    <option value="19">Шепета А.</option>
+                    <option value="20">Яценко И.</option>
+                </select>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -174,33 +174,27 @@
                 id est laborum.</p>
             <a href="#bott">To bottom</a>
             <a href="http://gnatkovsky.com.ua/files/jakor/index.html#yak2" target="_blank">To Second header</a>
-            <div ><a href="https://nure.ua/u-hnure-vidbudetsja-kvest-dlja-studentiv-pershokursnikiv-zip-quest-rozarhivuj-universitet" target="_blank">
+
+            <div class="banner"><a href="https://nure.ua/u-hnure-vidbudetsja-kvest-dlja-studentiv-pershokursnikiv-zip-quest-rozarhivuj-universitet" target="_blank">
                 <img src="https://nure.ua/wp-content/uploads/2018/07/banner-737_669-300x272.jpg" alt="zip-quest banner">
-            </a></div>
+                    </a>
+                <img src="https://pngicon.ru/file/uploads/like.png" alt="likeIco" class="likeIm" id="Im1">
+                <img src="https://pngicon.ru/file/uploads/like.png" alt="likeIco" class="likeIm" id="Im2">
+            </div>
         </td>
     </tr>
     <tr>
         <td colspan="2" >
-            <form action="">
-                <br>
-                <b>Заполните информацию о студенте:</b>
-                Фамилия и инициалы: <br><input type="text"><br>
-                Курс: <br>
-                <input type="radio" name = "answer1" value="a11">1-й курс
-                <input type="radio" name = "answer1" value="a12">2-й курс
-                <input type="radio" name = "answer1" value="a13">3-й курс
-                <input type="radio" name = "answer1" value="a14">4-й курс
-                <input type="radio" name = "answer1" value="a15">5-й курс
-                <input type="radio" name = "answer1" value="a16">Магистр <br>
-                Форма обучения: <br>
-                <input type="radio" name = "answer2" value = "a21">Контракт
-                <input type="radio" name = "answer2" value = "a22">Бюджет <br>
-                Трудоустроен: <br>
-                <input type="radio" name = "answer3" value = "a31">Работает
-                <input type="radio" name = "answer3" value = "a32">Безработный<br>
-                <input type="submit" value="Send">
+            <form action="index.php" class="validationForm">
+                <p>Insert your e-mail:</p>
+                <p><input type="email" required></p>
+                <p>Input your Full name:</p>
+                <p><input type="text" required></p>
+                <p>Input your phone number (not required)</p>
+                <p>+38<input type="tel"></p>
+                <p><input type="submit" value="Send"></p>
             </form>
-            <a name="bott" href="#top" >To top</a>
+            <a id="bott" href="#top" >To top</a>
         </td>
     </tr>
 </table>

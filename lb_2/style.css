@@ -2,7 +2,35 @@
     font-family: Geneva, Arial, Helvetica, sans-serif;
     width: 400px;
     border-style: solid;
-
-    border-collapse: separate;
     background: antiquewhite;
+}
+.validationForm {
+    float: right;
+}
+input:invalid {
+
+    background: #fdd;
+}
+input:valid {
+    background: #dfd;
+}
+.banner{
+    position: absolute;
+    right: 200px;
+}
+.likeIm {
+    width: 40px;
+    height: 40px;
+
+}
+#Im1{
+    position: absolute;
+    top: -20px;
+    left: 280px;
+}
+#Im2{
+    position: relative;
+    top: 15px;
+    left: -20px;
+
 }
